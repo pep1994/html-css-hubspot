@@ -5,12 +5,65 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* header **********************/
 header {
   background-color: darkred;
   border: solid 1px black;
-  padding: 80px 0;
 }
+
+  /* nav superiore ***************/
+  #navup {
+  background-color: blue;
+  border: solid 1px black;
+  padding: 100px 0;
+  }
+
+  .item-nu {
+    background-color: #2ae7fa;
+    border: solid 1px black;
+    padding: 30px 0;
+    width: 35%;
+    float: left;
+  }
+
+  .item-nu:nth-child(2) {
+    float: right;
+  }
+
+  /* nav inferiore ****************/
+  #navdown {
+  background-color: darkgray;
+  border: solid 1px black;
+  padding: 80px 0;
+  }
+
+  .logo, .menu {
+    background-color: #626262;
+    border: solid 1px black;
+    padding: 30px 0;
+  }
+
+  .logo {
+    width: 25%;
+    float: left;
+  }
+
+  .menu {
+    width: 50%;
+    float: right;
+  }
+
 
 /* contenuto principale ***************/
 
@@ -29,11 +82,54 @@ header {
   padding: 100px 0;
 }
 
+.card, .rubik {
+  background-color: #4b9ac6;
+  border: solid 1px black;
+  padding: 30px 0;
+  width: calc(1250px/3);
+}
+
+.card.crm {
+  width: 100%;
+  float: none;
+}
+
+.card {
+  float: left;
+}
+
+.rubik {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* sezione date *********************/
 #date {
   background-color: darkorange;
   border: solid 1px black;
   padding: 50px 0;
+}
+
+.description {
+  background-color: #d69b18;
+  border: solid 1px black;
+  padding: 20px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.info {
+  background-color: #d69b18;
+  border: solid 1px black;
+  padding: 30px 0;
+}
+
+.info .specific {
+  background-color: #ffd371;
+  border: solid 1px black;
+  width: 25%;
+  float: left;
+  padding: 10px 0;
 }
 
 /* sezione customer *****************/
@@ -43,9 +139,94 @@ header {
   padding: 130px 0;
 }
 
+.customers {
+  background-color: #d05df2;
+  border: solid 1px black;
+  padding: 50px 0;
+}
+
+.countries, .partners {
+  background-color: #9800c4;
+  border: solid 1px black;
+  padding: 20px 0;
+}
+
+.countries {
+  width: 25%;
+  float: left;
+}
+
+.partners {
+  width: 55%;
+  float: right;
+}
+
+#customer article {
+  background-color: rosybrown;
+  border: solid 1px black;
+  padding: 50px 0;
+}
+
+article .caption, article .picture {
+  background-color: saddlebrown;
+  border: solid 1px black;
+  padding: 20px 0;
+}
+
+article .caption {
+  width: 40%;
+  float: left;
+}
+
+article .picture {
+  width: 30%;
+  float: right;
+}
+
 /* footer **************************/
 footer {
   background-color: lightyellow;
   border: solid 1px black;
   padding: 140px 0;
+}
+
+.documents {
+  background-color: #ebe100;
+  border: solid 1px black;
+  padding: 60px 0;
+}
+
+.document {
+  background-color: #868000;
+  border: solid 1px black;
+  padding: 20px 0;
+  width: 25%;
+  float: left;
+}
+
+.language {
+  background-color: #b07f00;
+  border: solid 1px black;
+  padding: 30px 0;
+}
+
+.last {
+  background-color: #57ac3e;
+  border: solid 1px black;
+  padding: 60px 0;
+}
+
+.copy, .privacy {
+  background-color: #baf7a8;
+  border: solid 1px black;
+  padding: 20px 0;
+  width: 25%;
+}
+
+.copy {
+  float: left;
+}
+
+.privacy {
+  float: right;
 }
