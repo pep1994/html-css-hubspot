@@ -80,6 +80,10 @@
     background-color: #fff;
   }
 
+  #navup .item-nu.second .border:hover {
+    background-color: #fff1ee;
+  }
+
   #navup .item-nu.second .button {
     color: #fff;
     background-color: #ff7a59;
@@ -87,9 +91,14 @@
     padding: 10px 15px;
   }
 
+  #navup .item-nu.second .button:hover {
+    opacity: .5;
+  }
+
   .item-nu.second ul li:nth-child(3) {
     padding-left: 10px;
   }
+
 
   /* nav inferiore ****************/
   #navdown {
@@ -131,11 +140,47 @@
 /* contenuto principale ***************/
 
 
-  /* jumbotron *************************/
+  /* sezione jumbotron *************************/
   #jumbotron {
-    background-color: darkgreen;
-    border: solid 1px black;
-    padding: 120px 0;
+    background-image: url(../img/jumbotron.png);
+    background-position: center -80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero {
+    width: 34%;
+    padding: 100px 0;
+  }
+
+  .hero a {
+    text-decoration: none;
+    color: #fff;
+    padding: 25px 30px;
+    background-color: #ff7a59;
+    border-radius: 5px;
+  }
+
+  .hero a:hover {
+    opacity: .5;
+  }
+
+  .hero p {
+    padding-bottom: 50px;
+    line-height: 30px;
+  }
+
+  p.small {
+    font-size: 13px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    line-height: 20px;
+  }
+
+  h1 {
+    font-size: 52px;
+    line-height: 60px;
+    padding-bottom: 30px;
   }
 
   /* sezione cards *********************/
