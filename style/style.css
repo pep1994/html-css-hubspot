@@ -3,7 +3,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  color: #33475b;
+  font-size: 18px;
 }
+
 
 .container {
   max-width: 1250px;
@@ -25,20 +29,48 @@ header {
   /* nav superiore ***************/
   #navup {
   background-color: blue;
-  border: solid 1px black;
-  padding: 100px 0;
   }
 
   .item-nu {
     background-color: #2ae7fa;
     border: solid 1px black;
-    padding: 30px 0;
     width: 35%;
     float: left;
   }
 
   .item-nu:nth-child(2) {
     float: right;
+  }
+
+  #navup ul {
+    list-style-type: none;
+  }
+
+  #navup li {
+    display: inline-block;
+  }
+
+  #navup li a {
+    display: inline-block;
+    padding: 25px 0;
+    text-decoration: none;
+  }
+
+  span.english {
+    border-right: solid 2px #cbd6e2;
+    padding-right: 20px;
+  }
+
+  #navup ul li:nth-child(2) a {
+    padding-left: 20px;
+  }
+
+  .item-nu.second .fa-search {
+    padding-right: 20px;
+  }
+
+  .border {
+    border: solid 1px #ff7a59;
   }
 
   /* nav inferiore ****************/
@@ -68,120 +100,120 @@ header {
 /* contenuto principale ***************/
 
 
-/* jumbotron *************************/
-#jumbotron {
-  background-color: darkgreen;
-  border: solid 1px black;
-  padding: 120px 0;
-}
+  /* jumbotron *************************/
+  #jumbotron {
+    background-color: darkgreen;
+    border: solid 1px black;
+    padding: 120px 0;
+  }
 
-/* sezione cards *********************/
-#cards {
-  background-color: lightblue;
-  border: solid 1px black;
-  padding: 100px 0;
-}
+  /* sezione cards *********************/
+  #cards {
+    background-color: lightblue;
+    border: solid 1px black;
+    padding: 100px 0;
+  }
 
-.card, .rubik {
-  background-color: #4b9ac6;
-  border: solid 1px black;
-  padding: 30px 0;
-  width: calc(1250px/3);
-}
+  .card, .rubik {
+    background-color: #4b9ac6;
+    border: solid 1px black;
+    padding: 30px 0;
+    width: calc(1250px/3);
+  }
 
-.card.crm {
-  width: 100%;
-  float: none;
-}
+  .card.crm {
+    width: 100%;
+    float: none;
+  }
 
-.card {
-  float: left;
-}
+  .card {
+    float: left;
+  }
 
-.rubik {
-  width: 70%;
-  margin: 0 auto;
-}
+  .rubik {
+    width: 70%;
+    margin: 0 auto;
+  }
 
-/* sezione date *********************/
-#date {
-  background-color: darkorange;
-  border: solid 1px black;
-  padding: 50px 0;
-}
+  /* sezione date *********************/
+  #date {
+    background-color: darkorange;
+    border: solid 1px black;
+    padding: 50px 0;
+  }
 
-.description {
-  background-color: #d69b18;
-  border: solid 1px black;
-  padding: 20px 0;
-  width: 70%;
-  margin: 0 auto;
-}
+  .description {
+    background-color: #d69b18;
+    border: solid 1px black;
+    padding: 20px 0;
+    width: 70%;
+    margin: 0 auto;
+  }
 
-.info {
-  background-color: #d69b18;
-  border: solid 1px black;
-  padding: 30px 0;
-}
+  .info {
+    background-color: #d69b18;
+    border: solid 1px black;
+    padding: 30px 0;
+  }
 
-.info .specific {
-  background-color: #ffd371;
-  border: solid 1px black;
-  width: 25%;
-  float: left;
-  padding: 10px 0;
-}
+  .info .specific {
+    background-color: #ffd371;
+    border: solid 1px black;
+    width: 25%;
+    float: left;
+    padding: 10px 0;
+  }
 
-/* sezione customer *****************/
-#customer {
-  background-color: lightpink;
-  border: solid 1px black;
-  padding: 130px 0;
-}
+  /* sezione customer *****************/
+  #customer {
+    background-color: lightpink;
+    border: solid 1px black;
+    padding: 130px 0;
+  }
 
-.customers {
-  background-color: #d05df2;
-  border: solid 1px black;
-  padding: 50px 0;
-}
+  .customers {
+    background-color: #d05df2;
+    border: solid 1px black;
+    padding: 50px 0;
+  }
 
-.countries, .partners {
-  background-color: #9800c4;
-  border: solid 1px black;
-  padding: 20px 0;
-}
+  .countries, .partners {
+    background-color: #9800c4;
+    border: solid 1px black;
+    padding: 20px 0;
+  }
 
-.countries {
-  width: 25%;
-  float: left;
-}
+  .countries {
+    width: 25%;
+    float: left;
+  }
 
-.partners {
-  width: 55%;
-  float: right;
-}
+  .partners {
+    width: 55%;
+    float: right;
+  }
 
-#customer article {
-  background-color: rosybrown;
-  border: solid 1px black;
-  padding: 50px 0;
-}
+  #customer article {
+    background-color: rosybrown;
+    border: solid 1px black;
+    padding: 50px 0;
+  }
 
-article .caption, article .picture {
-  background-color: saddlebrown;
-  border: solid 1px black;
-  padding: 20px 0;
-}
+  article .caption, article .picture {
+    background-color: saddlebrown;
+    border: solid 1px black;
+    padding: 20px 0;
+  }
 
-article .caption {
-  width: 40%;
-  float: left;
-}
+  article .caption {
+    width: 40%;
+    float: left;
+  }
 
-article .picture {
-  width: 30%;
-  float: right;
-}
+  article .picture {
+    width: 30%;
+    float: right;
+  }
 
 /* footer **************************/
 footer {
