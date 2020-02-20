@@ -20,6 +20,18 @@
   clear: both;
 }
 
+.button-orange {
+  color: #fff;
+  background-color: #ff7a59;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
 /* header **********************/
 
 
@@ -38,9 +50,6 @@
     float: right;
   }
 
-  #navup ul {
-    list-style-type: none;
-  }
 
   #navup li {
     display: inline-block;
@@ -119,9 +128,6 @@
     float: right;
   }
 
-  #navdown ul {
-    list-style-type: none;
-  }
 
   #navdown li {
     display: inline-block;
@@ -184,13 +190,34 @@
   }
 
   /* sezione cards *********************/
+
+    /* sottosezione rubik **********/
+    .rubik {
+      width: 62%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 80px;
+    }
+
+    .rubik img {
+      max-width: 250px;
+    }
+
+    .rubik h2 {
+      font-size: 35px;
+    }
+
+    .rubik p {
+      padding: 20px 0;
+      line-height: 27px;
+    }
+
+    /* sottosezione features *******/
   #cards {
-    background-color: lightblue;
-    border: solid 1px black;
-    padding: 100px 0;
+    background-color: #F5F8FA;
   }
 
-  .card, .rubik {
+  .card {
     background-color: #4b9ac6;
     border: solid 1px black;
     padding: 30px 0;
@@ -200,16 +227,30 @@
   .card.crm {
     width: 100%;
     float: none;
+    padding: 30px 0 30px 80px;
   }
 
   .card {
     float: left;
   }
 
-  .rubik {
-    width: 70%;
-    margin: 0 auto;
+  .feature-card {
+    background-color: darkred;
+    width: 25%;
+    float: left;
   }
+
+  .cap-crm {
+    background-color: lightblue;
+    order: solid 1px black;
+    width: 70%;
+    float: right;
+  }
+
+  .feature-card img {
+    max-width: 230px;
+  }
+
 
   /* sezione date *********************/
   #date {
