@@ -21,14 +21,12 @@
 }
 
 /* header **********************/
-header {
-  background-color: darkred;
-  border: solid 1px black;
-}
+
 
   /* nav superiore ***************/
   #navup {
   background-color: #F5F8FA;
+  border-bottom: 1px solid #cbd6e2;
   }
 
   .item-nu {
@@ -95,15 +93,11 @@ header {
 
   /* nav inferiore ****************/
   #navdown {
-  background-color: darkgray;
-  border: solid 1px black;
-  padding: 80px 0;
+  background-color: #fff;
   }
 
   .logo, .menu {
-    background-color: #626262;
-    border: solid 1px black;
-    padding: 30px 0;
+    padding: 22px 0;
   }
 
   .logo {
@@ -114,6 +108,23 @@ header {
   .menu {
     width: 50%;
     float: right;
+  }
+
+  #navdown ul {
+    list-style-type: none;
+  }
+
+  #navdown li {
+    display: inline-block;
+  }
+
+  #navdown li a {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 
 
