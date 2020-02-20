@@ -28,13 +28,11 @@ header {
 
   /* nav superiore ***************/
   #navup {
-  background-color: blue;
+  background-color: #F5F8FA;
   }
 
   .item-nu {
-    background-color: #2ae7fa;
-    border: solid 1px black;
-    width: 35%;
+    width: 30%;
     float: left;
   }
 
@@ -61,6 +59,10 @@ header {
     padding-right: 20px;
   }
 
+  span.fa-search {
+    color: #6CC2D1;
+  }
+
   #navup ul li:nth-child(2) a {
     padding-left: 20px;
   }
@@ -69,8 +71,26 @@ header {
     padding-right: 20px;
   }
 
-  .border {
+  #navup .item-nu.second .border {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
     border: solid 1px #ff7a59;
+    border-radius: 5px;
+    color: #ff7a59;
+    background-color: #fff;
+  }
+
+  #navup .item-nu.second .button {
+    color: #fff;
+    background-color: #ff7a59;
+    border-radius: 5px;
+    padding: 10px 15px;
+  }
+
+  .item-nu.second ul li:nth-child(3) {
+    padding-left: 10px;
   }
 
   /* nav inferiore ****************/
