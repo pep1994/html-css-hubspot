@@ -8,7 +8,6 @@
   font-size: 18px;
 }
 
-
 .container {
   max-width: 1250px;
   margin: 0 auto;
@@ -28,9 +27,34 @@
   text-decoration: none;
 }
 
+.button-orange:hover {
+  opacity: .5;
+}
+
 ul {
   list-style-type: none;
 }
+
+h3 {
+  font-size: 24px;
+}
+
+.card p {
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+p.uppercase {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.card img {
+  max-width: 220px;
+  max-height: 150px;
+}
+
 
 /* header **********************/
 
@@ -196,7 +220,7 @@ ul {
       width: 62%;
       margin: 0 auto;
       text-align: center;
-      padding-top: 80px;
+      padding: 80px 0;
     }
 
     .rubik img {
@@ -218,37 +242,99 @@ ul {
   }
 
   .card {
-    background-color: #4b9ac6;
-    border: solid 1px black;
-    padding: 30px 0;
-    width: calc(1250px/3);
+    background-color: #fff;
+    padding: 48px;
+    width: 31.3333%;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(210, 210, 210, .4);
+    float: left;
+  }
+
+  .card:nth-child(4) {
+    margin: 0 3%;
   }
 
   .card.crm {
     width: 100%;
     float: none;
-    padding: 30px 0 30px 80px;
-  }
-
-  .card {
-    float: left;
+    padding: 35px 35px 50px 65px;
+    margin-bottom: 40px;
   }
 
   .feature-card {
-    background-color: darkred;
-    width: 25%;
+    width: 22%;
     float: left;
-  }
-
-  .cap-crm {
-    background-color: lightblue;
-    order: solid 1px black;
-    width: 70%;
-    float: right;
+    text-align: center;
   }
 
   .feature-card img {
-    max-width: 230px;
+    max-height: 192.031px
+  }
+
+  .cap-crm {
+    width: 69%;
+    float: right;
+  }
+
+  .cap-crm li {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 22px;
+  }
+
+  .popular-features {
+    position: relative;
+    padding: 7px 0;
+  }
+
+  .line {
+    border-bottom: solid 1px #E1E6ED;
+    position: absolute;
+    top: 24px;
+    width: 79%;
+    margin-left: 10px;
+  }
+
+  .feature-card img {
+    max-width: 220px;
+    padding-bottom: 35px;
+  }
+
+  .check {
+    color: #fff;
+    background-color: #ff7a59;
+    padding: 5px;
+    border-radius: 100%;
+    font-size: 10px;
+    margin-right: 7px;
+  }
+
+
+  .feature {
+    text-align: center;
+  }
+
+  .feature p {
+    text-align: left;
+    font-size: 17px;
+    padding-bottom: 28px;
+    border-bottom: solid 1px #E1E6ED;
+    line-height: 28px;
+  }
+
+  .start .uppercase {
+    text-align: center;
+    padding-top: 28px;
+  }
+
+  .start li {
+    font-size: 15px;
+    padding-top: 15px;
+  }
+
+  .get-started {
+    text-align: center;
+    padding: 50px 0 0 0;
   }
 
 
