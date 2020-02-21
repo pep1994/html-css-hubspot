@@ -634,3 +634,20 @@ footer {
   .privacy li {
     display: inline-block;
   }
+
+
+/* chat **************************/
+.chat {
+  color: #fff;
+  font-size: 35px;
+  padding: 17px;
+  background-color: #445B75;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chat:hover {
+  box-shadow: 0 0 17px rgba(0, 0, 0, 0.4);
+}
