@@ -178,9 +178,10 @@ p.uppercase {
   /* sezione jumbotron *************************/
   #jumbotron {
     background-image: url(../img/jumbotron.png);
-    background-position: center;
+    background-position: center -154px;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .hero {
