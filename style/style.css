@@ -173,7 +173,7 @@ p.uppercase {
   /* sezione jumbotron *************************/
   #jumbotron {
     background-image: url(../img/jumbotron.png);
-    background-position: center -80px;
+    background-position: center -31px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -239,6 +239,7 @@ p.uppercase {
     /* sottosezione features *******/
   #cards {
     background-color: #F5F8FA;
+    padding-bottom: 60px;
   }
 
   .card {
@@ -340,31 +341,66 @@ p.uppercase {
 
   /* sezione date *********************/
   #date {
-    background-color: darkorange;
-    border: solid 1px black;
-    padding: 50px 0;
+    background-image: linear-gradient(to right, #00a4bd, #00bda5);
+    padding: 90px 0;
   }
 
   .description {
-    background-color: #d69b18;
-    border: solid 1px black;
-    padding: 20px 0;
-    width: 70%;
+    padding: 0 0 80px 0;
+    width: 60%;
     margin: 0 auto;
+    text-align: center;
   }
 
-  .info {
-    background-color: #d69b18;
-    border: solid 1px black;
-    padding: 30px 0;
+  .description h2 {
+    color: #fff;
+    font-size: 33px;
+    padding-bottom: 25px;
+  }
+
+  .description p {
+    color: #fff;
+    line-height: 30px;
+    font-size: 19px;
+  }
+
+  .container .info.clearfix:nth-child(2) {
+    border-bottom: solid 1px #fff;
   }
 
   .info .specific {
-    background-color: #ffd371;
-    border: solid 1px black;
     width: 25%;
     float: left;
-    padding: 10px 0;
+    padding: 20px;
+    text-align: center;
+    border-right: solid 1px #fff;
+  }
+
+  .info .specific:last-child {
+    border: none;
+  }
+
+
+  .specific img {
+    height: 32px;
+  }
+
+  .specific h2 {
+    color: #fff;
+    font-size: 55px;
+    position: relative;
+  }
+
+  .specific p {
+    color: #fff;
+    font-size: 19px;
+  }
+
+  .specific .più {
+    color: #fff;
+    position: absolute;
+    top: 24px;
+    font-size: 20px;
   }
 
   /* sezione customer *****************/
