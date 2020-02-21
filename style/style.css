@@ -63,6 +63,10 @@ p.uppercase {
   #navup {
   background-color: #F5F8FA;
   border-bottom: 1px solid #cbd6e2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
   }
 
   .item-nu {
@@ -136,6 +140,7 @@ p.uppercase {
   /* nav inferiore ****************/
   #navdown {
   background-color: #fff;
+  margin-top: 74.8px;
   }
 
   .logo, .menu {
@@ -173,7 +178,7 @@ p.uppercase {
   /* sezione jumbotron *************************/
   #jumbotron {
     background-image: url(../img/jumbotron.png);
-    background-position: center 1px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -472,7 +477,7 @@ p.uppercase {
   }
 
   article {
-    padding: 150px 0 70px 0;
+    padding: 150px 0 130px 0;
   }
 
   article .picture {
@@ -504,48 +509,127 @@ p.uppercase {
 
 /* footer **************************/
 footer {
-  background-color: lightyellow;
-  border: solid 1px black;
-  padding: 140px 0;
+  background-color: #33475b;
 }
 
 .documents {
-  background-color: #ebe100;
-  border: solid 1px black;
-  padding: 60px 0;
+  padding: 70px 0 20px 0;
 }
 
 .document {
-  background-color: #868000;
-  border: solid 1px black;
   padding: 20px 0;
   width: 25%;
   float: left;
 }
 
-.language {
-  background-color: #b07f00;
-  border: solid 1px black;
-  padding: 30px 0;
+.document li {
+  padding: 8px 0;
 }
 
-.last {
-  background-color: #57ac3e;
-  border: solid 1px black;
-  padding: 60px 0;
+.document a {
+  text-decoration: none;
+  color: #CCD6E1;
+  font-size: 16px;
 }
 
-.copy, .privacy {
-  background-color: #baf7a8;
-  border: solid 1px black;
-  padding: 20px 0;
-  width: 25%;
+.document a:hover {
+  color: #7fd1de;
 }
 
-.copy {
-  float: left;
+.document h4 {
+  color: #fff;
+  font-size: 18px;
 }
 
-.privacy {
-  float: right;
+.document li .white {
+  color: #fff;
 }
+
+.document .freccina {
+  color: #fff;
+}
+
+.document .button-white {
+  padding: 12px;
+  background-color: #fff;
+  color: #34475b;
+  border-radius: 5px;
+}
+
+.document .button-white:hover {
+  color: #34475b;
+}
+
+#dropdown {
+  padding-bottom: 20px;
+}
+
+  /* language **********************/
+  .language {
+    border-bottom: solid 1px #CCD6E1;
+    text-align: center;
+  }
+
+  .language a, .language li {
+    display: inline-block;
+  }
+
+  .language a {
+    text-decoration: none;
+    color: #CCD6E1;
+    padding: 20px 20px 40px 20px;
+  }
+
+  .language a:hover {
+    color: #7fd1de;
+  }
+
+  /* social ***********************/
+  .social li, .social a {
+    display: inline-block;
+  }
+
+  .social span {
+    color: #CCD6E1;
+  }
+
+  .social a {
+    padding: 20px 25px 0 0;
+  }
+
+  .social span:hover {
+    color: #7fd1de;
+  }
+
+  /* ultima parte del footer */
+
+  .copy, .privacy {
+    padding: 45px 0;
+    width: 25%;
+  }
+
+  .copy {
+    float: left;
+  }
+
+  .copy p, .privacy a {
+    color: #CCD6E1;
+  }
+
+  .privacy {
+    float: right;
+  }
+
+  .privacy a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 25px;
+  }
+
+  .privacy a:hover {
+    color: #7fd1de;
+  }
+
+  .privacy li {
+    display: inline-block;
+  }
