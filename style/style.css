@@ -56,17 +56,16 @@ p.uppercase {
 }
 
 
-/* header **********************/
+/************************ header ******************************************/
 
-
-  /* nav superiore ***************/
+  /* nav superiore *******************************/
   #navup {
   background-color: #F5F8FA;
   border-bottom: 1px solid #cbd6e2;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 1;
   }
 
   .item-nu {
@@ -136,27 +135,26 @@ p.uppercase {
     padding-left: 10px;
   }
 
-
-  /* nav inferiore ****************/
+  /* nav inferiore **********************************/
   #navdown {
   background-color: #fff;
   margin-top: 74.8px;
   }
 
   .logo, .menu {
-    padding: 22px 0;
+    padding: 6px 0;
   }
 
   .logo {
     width: 25%;
     float: left;
+    padding: 23px 0;
   }
 
   .menu {
     width: 50%;
     float: right;
   }
-
 
   #navdown li {
     display: inline-block;
@@ -167,13 +165,125 @@ p.uppercase {
     display: inline-block;
     font-weight: 700;
     padding-left: 30px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 23px;
+    padding-bottom: 23px;
   }
 
+  /* menu dropdown ******************/
+  .menu-software {
+    background-color: #fff;
+    max-width: 900px;
+    border: 1px solid #cbd6e2;
+    border-radius: 4px;
+    padding: 0 25px;
+    box-shadow: 0 0 22px rgba(94, 92, 92, .2);
+    position: absolute;
+    top: 144px;
+    right: 350px;
+    display: none;
+  }
 
-/* contenuto principale ***************/
+  .menu-software::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-top: solid 1px #cbd6e2;
+    border-left: solid 1px #cbd6e2;
+    background-color: #fff;
+    border-radius: 3px 0 0 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -11px;
+    left: 389px;
+  }
 
+  .dropdown:hover .menu-software {
+    display: block;
+  }
+
+  .menu-software h2 {
+    font-size: 21px;
+    margin-bottom: 7px;
+  }
+
+  .menu-software p {
+    font-size: 15px;
+  }
+
+  .menu-software li {
+    padding: 22px 0;
+    border-bottom: 1px solid #cbd6e2;
+  }
+
+  .menu-software li:last-child {
+    border: none;
+  }
+
+  .menu-software li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .menu-software li:first-child {
+    width: 100%;
+  }
+
+  .menu-software li a:hover {
+    background-color: #e5f5f8;
+    border-radius: 4px;
+  }
+
+  .item1-menu {
+    text-align: center;
+  }
+
+  #navdown .item1-menu a {
+    padding: 15px 0;
+  }
+
+  .item2-menu {
+    width: 33.3333%;
+    float: left;
+  }
+
+  #navdown .item2-menu a {
+    padding: 20px;
+  }
+
+  #navdown .item3-menu a {
+  padding: 25px 20px;
+  }
+
+  .item3-menu span {
+    padding: 10px;
+    background-color: #00bda5;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
+  .item3-menu h2, .item3-menu p {
+    display: inline-block;
+  }
+
+  .item3-menu h2 {
+    margin-right: 20px;
+    position: relative;
+    bottom: 8px;
+    vertical-align: middle;
+  }
+
+  .item3-menu p {
+    position: relative;
+    bottom: 9px;
+  }
+
+/********************* contenuto principale ************************/
 
   /* sezione jumbotron *************************/
   #jumbotron {
@@ -219,7 +329,7 @@ p.uppercase {
     padding-bottom: 30px;
   }
 
-  /* sezione cards *********************/
+  /******************** inizio sezione cards ************************/
 
     /* sottosezione rubik **********/
     .rubik {
@@ -316,7 +426,6 @@ p.uppercase {
     margin-right: 7px;
   }
 
-
   .feature {
     text-align: center;
   }
@@ -343,6 +452,7 @@ p.uppercase {
     text-align: center;
     padding: 50px 0 0 0;
   }
+  /************ fine sezione cards ****************/
 
 
   /* sezione date *********************/
@@ -386,7 +496,6 @@ p.uppercase {
     border: none;
   }
 
-
   .specific img {
     height: 32px;
   }
@@ -409,7 +518,7 @@ p.uppercase {
     font-size: 20px;
   }
 
-  /* sezione customer *****************/
+  /*************** sezione customer *****************/
   #customer {
     background-color: #fff;
     padding-top: 100px;
@@ -447,11 +556,11 @@ p.uppercase {
 
   .partner:nth-child(7) {
     padding-top: 5px;
-    }
+  }
 
-    .partner:nth-child(8) {
-      padding-top: 11px;
-    }
+  .partner:nth-child(8) {
+    padding-top: 11px;
+  }
 
   .partners .partner:first-child img, .partners .partner:nth-child(2) img  {
     height: 15px;
@@ -469,7 +578,6 @@ p.uppercase {
   .partners .partner:nth-child(8) img {
     height: 25px;
   }
-
 
   /* sottosezione articolo *******************/
   article .caption {
@@ -506,9 +614,10 @@ p.uppercase {
     width: 100%;
     max-height: 430px;
   }
+  /************ fine sezione customers *****************/
 
 
-/* footer **************************/
+/************************ footer **************************/
 footer {
   background-color: #33475b;
 }
@@ -634,6 +743,7 @@ footer {
   .privacy li {
     display: inline-block;
   }
+  /********************* fine footer *************************/
 
 
 /* chat **************************/
