@@ -77,7 +77,6 @@ p.uppercase {
     float: right;
   }
 
-
   #navup li {
     display: inline-block;
   }
@@ -169,7 +168,7 @@ p.uppercase {
     padding-bottom: 23px;
   }
 
-  /* menu dropdown ******************/
+  /* menu dropdown-software ******************/
   .menu-software {
     background-color: #fff;
     max-width: 900px;
@@ -282,6 +281,158 @@ p.uppercase {
     position: relative;
     bottom: 9px;
   }
+  /* fine menu dropdown-software **************/
+
+
+  /* inizio menu dropdown-resources *********/
+  .menu-software.resources {
+    position: absolute;
+    top: 144px;
+    right: 350px;
+    display: none;
+  }
+
+  .menu-software.resources::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-top: solid 1px #cbd6e2;
+    border-left: solid 1px #cbd6e2;
+    background-color: #fff;
+    border-radius: 3px 0 0 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -11px;
+    left: 619px;
+  }
+
+  .resources-dropdown:hover .menu-software.resources  {
+    display: block;
+  }
+
+  #navdown .menu-software.resources .resource a {
+    padding-bottom: 40px;
+  }
+
+  .menu-software.resources span {
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 10px;
+    background-color: #00bda5;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .inline {
+    display: inline-block;
+  }
+
+  #navdown .fs-14 {
+    font-size: 14px;
+  }
+
+  #navdown .menu-software.resources .item2-menu.resource.p a {
+    padding-bottom: 46px;
+  }
+  /* fine menu dropdown-resources ****************/
+
+
+  /* inizio menu dropdown-partners ************/
+  .menu-software.partners {
+    max-width: 700px;
+    display: none;
+  }
+
+  .dropdown-partners:hover .menu-software.partners {
+    display: block;
+  }
+
+  .menu-software.partners::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-top: solid 1px #cbd6e2;
+    border-left: solid 1px #cbd6e2;
+    background-color: #fff;
+    border-radius: 3px 0 0 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -11px;
+    left: 541px;
+  }
+
+  .item2-menu-partner {
+    width: 50%;
+    float: left;
+  }
+
+  #navdown .menu-software.partners .item2-menu-partner a {
+    padding-left: 15px;
+  }
+  /* fine menu dropdown-partners *********************/
+
+
+  /* inizio menu dropdown-about *********************/
+  .menu-software.about {
+    display: none;
+    max-width: 600px;
+    padding: 25px;;
+  }
+
+  .dropdown-about:hover .menu-software.about {
+    display: block;
+  }
+
+  .menu-software.about::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-top: solid 1px #cbd6e2;
+    border-left: solid 1px #cbd6e2;
+    background-color: #fff;
+    border-radius: 3px 0 0 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -11px;
+    left: 543px;
+  }
+
+  .menu-software.about a:hover {
+    background-color: #e5f5f8;
+    border-radius: none;
+  }
+
+  .item2-menu.about {
+    width: 32%;
+  }
+
+  .item2-menu.about:nth-child(2) {
+    margin: 0 2%;
+  }
+
+  #navdown .item2-menu.about li a {
+    padding: 9px 16px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  #navdown .item2-menu.about li {
+    border: none;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+  }
+
+  #navdown .item2-menu.about h2 {
+    padding: 9px 16px;
+  }
+  /* fine menu dropdown-about *********************/
+
+/*********************** fine header ****************************/
+
 
 /********************* contenuto principale ************************/
 
@@ -615,6 +766,8 @@ p.uppercase {
     max-height: 430px;
   }
   /************ fine sezione customers *****************/
+
+/************************* fine contenuto principale **************************/
 
 
 /************************ footer **************************/
