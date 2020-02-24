@@ -59,6 +59,19 @@ p.uppercase {
   position: relative;
 }
 
+input {
+  background: url(../img/search-icon.webp) no-repeat;
+  background-color: transparent;
+  background-position: left;
+  background-size: 18px;
+  padding: 3px 20px 3px 25px;
+  max-width: 0;
+}
+
+input:focus {
+  max-width: 170px;
+  width: 100%;
+}
 
 /************************ header ******************************************/
 
