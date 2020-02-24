@@ -55,6 +55,10 @@ p.uppercase {
   max-height: 150px;
 }
 
+.relative {
+  position: relative;
+}
+
 
 /************************ header ******************************************/
 
@@ -168,17 +172,18 @@ p.uppercase {
     padding-bottom: 23px;
   }
 
+
   /* menu dropdown-software ******************/
   .menu-software {
     background-color: #fff;
-    max-width: 900px;
+    max-width: 883px;
     border: 1px solid #cbd6e2;
     border-radius: 4px;
     padding: 0 25px;
     box-shadow: 0 0 22px rgba(94, 92, 92, .2);
     position: absolute;
-    top: 144px;
-    right: 157px;
+    top: 69px;
+    right: 30px;
     display: none;
   }
 
@@ -194,7 +199,7 @@ p.uppercase {
     transform: rotate(45deg);
     position: absolute;
     top: -11px;
-    left: 389px;
+    left: 393px;
   }
 
   .dropdown:hover .menu-software {
@@ -281,14 +286,15 @@ p.uppercase {
     position: relative;
     bottom: 9px;
   }
+
   /* fine menu dropdown-software **************/
 
 
   /* inizio menu dropdown-resources *********/
   .menu-software.resources {
     position: absolute;
-    top: 144px;
-    right: 158px;
+    top: 69px;
+    right: 30px;
     display: none;
   }
 
@@ -304,7 +310,7 @@ p.uppercase {
     transform: rotate(45deg);
     position: absolute;
     top: -11px;
-    left: 619px;
+    left: 624px;
   }
 
   .resources-dropdown:hover .menu-software.resources  {
@@ -360,7 +366,7 @@ p.uppercase {
     transform: rotate(45deg);
     position: absolute;
     top: -11px;
-    left: 541px;
+    left: 487px;
   }
 
   .item2-menu-partner {
@@ -397,7 +403,7 @@ p.uppercase {
     transform: rotate(45deg);
     position: absolute;
     top: -11px;
-    left: 543px;
+    left: 565px;
   }
 
   .menu-software.about a:hover {
